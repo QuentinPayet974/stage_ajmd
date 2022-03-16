@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tutoriel PHP : Générer un QR Code sur une page PDF et l'insérer dans une base de données MySQL</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        form * {
+            margin: 1%;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="post" action="save.php" target="_blank">
+        <div>
+            <label>NOM :</label><input type="text" name="Nom" required="required" width="70">
+        </div> <br>
+        <div>
+            <label>PRENOM :</label><input type="text" name="Prenom" required="required" width="70">
+        </div>
+        <label>Date de naissance :</label><input type="text" name="Date de naissance" required="required" width="70">
+        </div> <br>
+        <label>EMAIL :</label><input type="text" name="Email" required="required" width="70">
+        </div>
+        <div>
+            <label>TELEPHONE :</label><input type="tel" name="Telephone" required="required" width="70">
+        </div> <br>
+        <label>DOMICILE:</label><input type="text" name="Domicile" required="required" width="70">
+        </div> <br>
+        <label>ORIENTATION :</label><input type="text" name="Orientation" required="required" width="70">
+        </div> <br>
+        <label>DATE ENTREE :</label><input type="text" name="Date entrée" required="required" width="70">
+        </div> <br>
+        <label> APPART MAISON:</label><input type="text" name="Appt_Maison" required="required" width="70">
+        </div> <br>
+        <label>DATE SORTIE:</label><input type="text" name="Date de sortie" required="required" width="70">
+        </div> <br></br>
+        <label>DROIT A L'IMAGE :</label><input type="text" name="Droit a l'image" required="required" width="70">
+        </div> <br>
+        <label>NUMERO DE SECURITE SOCIALE :</label><input type="text" name="Num sécurité sociale" required="required"
+            width="70">
+        </div> <br>
+        <label>REGIME ALIMENTAIRE :</label><input type="text" name="Regime alimentaire" required="required" width="70">
+        </div> <br>
+        <label>ALLERGIES :</label><input type="text" name="Allergies" required="required" width="70">
+        </div> <br>
+        <label>URGENCES :</label><input type="text" name="Urgences" required="required" width="70">
+        </div> <br>
+        <div>
+            <input type="submit" value="Enregistrer" width="30">
+        </div>
+    </form>
+</body>
+
+</html>

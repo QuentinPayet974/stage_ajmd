@@ -1,0 +1,39 @@
+table {
+    border:3px solid #325597;
+    border-collapse:collapse;
+    width:90%;
+    margin:auto;
+    }
+    thead {
+    background-color:#a0b1c5b6;
+    border:1px solid #6495ed;
+    }
+    tbody {
+    background-color:#FFFFFF;
+    border:1px solid #6495ed;
+   
+    }
+    th {
+    font-family:monospace;
+    border:1px dotted #6495ed;
+    padding:5px;
+    background-color:#f2ffef;
+    width:25%;
+    }
+    td {
+    font-family:sans-serif;
+    font-size:100%;
+    border:1px solid #3d6cc2;
+    padding:5px;
+    text-align:left;
+    color: rgb(0, 0, 0);
+    }
+    caption {
+    font-family:sans-serif;
+    }
+
+    .toz {
+        color: darkmagenta;
+    }
+  
+    
